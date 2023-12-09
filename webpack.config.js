@@ -29,7 +29,7 @@ module.exports = {
             },
             {//Handle image with Asset Module thereby i dont need loader for images
                 test: /\.(png|svg|jpg|gif)$/,
-                type: 'asset/resource'
+                type: 'asset'
             },
             {
                 test: /\.html$/i,
